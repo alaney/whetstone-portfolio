@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   Boxes,
   Code2,
@@ -62,50 +61,33 @@ export default function Home() {
       <main className="relative z-10 flex flex-1 flex-col">
         {/* Hero */}
         <section className="border-b border-slate-800/60 px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
-          <div className="mx-auto grid w-full max-w-6xl gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center">
-            <div className="flex flex-col gap-8">
-              <div className="inline-flex w-fit items-center gap-2 rounded-full border border-slate-800 bg-slate-900/40 px-3 py-1 text-xs font-medium text-slate-400">
-                <span className="size-1.5 rounded-full bg-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.6)]" />
-                Whetstone Software Consulting LLC
-              </div>
-              <div className="space-y-6">
-                <h1 className="font-sans text-4xl font-bold leading-[1.05] tracking-tight text-slate-100 sm:text-5xl lg:text-6xl">
-                  Precision Engineering for High-Stakes Software.
-                </h1>
-                <p className="max-w-xl text-lg leading-relaxed text-slate-400 sm:text-xl">
-                  Whetstone Consulting partners with businesses to architect,
-                  build, and scale production-grade web applications.
-                </p>
-              </div>
-              <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-                <a
-                  href="#contact"
-                  className={cn(buttonVariants({ size: "xl" }))}
-                >
-                  Start a Project
-                </a>
-                <a
-                  href="#case-studies"
-                  className={cn(buttonVariants({ variant: "outline", size: "xl" }))}
-                >
-                  View Case Studies
-                </a>
-              </div>
+          <div className="mx-auto flex w-full max-w-6xl flex-col gap-8">
+            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-slate-800 bg-slate-900/40 px-3 py-1 text-xs font-medium text-slate-400">
+              <span className="size-1.5 rounded-full bg-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.6)]" />
+              Whetstone Software Consulting LLC
             </div>
-
-            <div className="relative mx-auto flex w-full max-w-md items-center justify-center lg:max-w-none">
-              <div className="relative aspect-square w-full max-w-sm overflow-hidden rounded-2xl border border-slate-800 bg-slate-950/50 p-8 shadow-[0_0_0_1px_rgba(15,23,42,0.4)] sm:max-w-md lg:max-w-none">
-                <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(16,185,129,0.15),transparent_50%)]" />
-                <Image
-                  src="/globe.svg"
-                  alt=""
-                  width={400}
-                  height={400}
-                  className="relative z-10 mx-auto h-auto w-full max-w-[280px] opacity-90 sm:max-w-[320px]"
-                  priority
-                  unoptimized
-                />
-              </div>
+            <div className="space-y-6">
+              <h1 className="max-w-5xl font-sans text-4xl font-bold leading-[1.05] tracking-tight text-slate-100 sm:text-5xl lg:text-6xl xl:text-7xl">
+                Precision Engineering for High-Stakes Software.
+              </h1>
+              <p className="max-w-4xl text-lg leading-relaxed text-slate-400 sm:text-xl lg:text-2xl">
+                Whetstone Consulting partners with businesses to architect,
+                build, and scale production-grade web applications.
+              </p>
+            </div>
+            <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+              <a
+                href="#contact"
+                className={cn(buttonVariants({ size: "xl" }))}
+              >
+                Start a Project
+              </a>
+              <a
+                href="#case-studies"
+                className={cn(buttonVariants({ variant: "outline", size: "xl" }))}
+              >
+                View Case Studies
+              </a>
             </div>
           </div>
         </section>
