@@ -64,7 +64,7 @@ export default function Home() {
           <div className="mx-auto flex w-full max-w-6xl flex-col gap-8">
             <div className="inline-flex w-fit items-center gap-2 rounded-full border border-slate-800 bg-slate-900/40 px-3 py-1 text-xs font-medium text-slate-400">
               <span className="size-1.5 rounded-full bg-emerald-500 shadow-[0_0_12px_rgba(16,185,129,0.6)]" />
-              Whetstone Software Consulting LLC
+              Whetstone Software Consulting, LLC
             </div>
             <div className="space-y-6">
               <h1 className="max-w-5xl font-sans text-4xl font-bold leading-[1.05] tracking-tight text-slate-100 sm:text-5xl lg:text-6xl xl:text-7xl">
@@ -225,7 +225,7 @@ export default function Home() {
           className="mt-auto border-t border-slate-800/80 px-4 py-8 sm:px-6 lg:px-8"
         >
           <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-            <span>© {new Date().getFullYear()} Whetstone Software Consulting LLC</span>
+            <span>© {new Date().getFullYear()} Whetstone Software Consulting, LLC</span>
             <span className="text-slate-600">
               Engineering-led consultancy • Production-grade delivery
             </span>

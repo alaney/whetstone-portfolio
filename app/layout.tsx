@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Whetstone Software Consulting LLC",
+  title: "Whetstone Software Consulting, LLC",
   description:
     "Whetstone Consulting partners with businesses to architect, build, and scale production-grade web applications.",
 };
